@@ -198,16 +198,21 @@ margin :0 auto;
 .target-container{
     display: flex;
     gap: 45px;
-    height: 299px;
+    height: 350px;
     text-align: left;
+  
+
 
 }
 .target-section{
     width: 1140px;
 height: 460px;
 text-align: center;
-
 margin: 0 auto;
+padding-bottom: 60px;
+
+
+
 }
 .target-description{
 display: flex;
@@ -221,11 +226,13 @@ margin-bottom: 40px;
 }
 .html-container{
     width: 364px;
-height: 315px;
+height: 270px;
 padding: 40px;
 border-radius: 16px;
 
 background: rgba(255, 76, 30, 0.05);
+margin-bottom: 40px;
+
 }
 .html-head{
     color: rgb(13, 19, 33);
@@ -258,16 +265,17 @@ text-decoration-line: underline;
 }
 .css-container{
     width: 364px;
-    height: 315px;
+    height: 270px;
     padding: 40px;
     border-radius: 16px;
 
 background: rgba(0, 76, 232, 0.05);}
 .java-container{
     width: 364px;
-    height: 315px;
+    height: 270px;
     padding: 40px;
     border-radius: 16px;
+    margin-bottom: 40px;
 
 background: rgba(255, 223, 0, 0.05);
 
@@ -294,4 +302,93 @@ margin-bottom: 24px;
 
 
 }
+/*main(4 th section)*/
+.support{
+    width: 1140px;
+height: 313px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius: 16px;
+background-image: linear-gradient( rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("../assets/handshake.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+margin: 45px auto;
+border-radius: 16px;
 
+padding: 64px 48px;
+
+
+}
+.support-head{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+margin: 16px 0px;
+}
+.support-para{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+opacity: 0.7;
+margin: 16px 0px;
+
+}
+.input{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+
+}
+.input-text{
+    width: 548px;
+height: 57px;
+
+    box-sizing: border-box;
+
+border-radius: 8px;
+background: rgb(255, 255, 255);
+
+}
+.text{
+    width: 313px;
+    height: 14px;
+ margin: 10px 20px 10px 8px;
+    color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+}
+.submit{
+    width: 120px;
+height: 57px;
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+
+}
+.submit-btn{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 600;
+line-height: 23px;
+border: none;
+}
