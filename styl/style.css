@@ -18,6 +18,7 @@ body{
     align-items: center;
     width: 1440px;
 height: 652px;
+margin: 0 auto;
 }
 .developer-img{
     width: 240.28px;
@@ -61,7 +62,9 @@ padding: 0  294px 0 294px;
     font-size: 20px;
     padding: 21px 24px 21px 24px;
 }
+
 /*main (1st section)*/
+
 .why-devlopment{
     width: 1000px;
     height:1393 ;
@@ -118,9 +121,9 @@ opacity: 0.7;
 .coding-head{
     color: rgba(13, 19, 33, 0.7);
 font-family: Azeret Mono;
-font-size: 24px;
+font-size: 20px;
 font-weight: 700;
-line-height: 36px;
+line-height: 25px;
 margin: 16px 0px;
 }
 .coding-para{
@@ -129,7 +132,7 @@ margin: 16px 0px;
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 20px;
     margin: 16px 0px;
 }
 .box{
@@ -145,3 +148,47 @@ text-align: center;
 padding: 12px 20px 12px 20px;
 background: rgb(255, 255, 255);
 }
+
+/*main(2nd section)*/
+
+.my-inspiration{
+    width: 1000px;
+    height:1393 ;
+    margin:  0 auto;
+    padding: 0px 97px 80px 97px;
+    text-align: center;
+}
+.my-inspiration-discription{
+   
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+   }
+   .inspiration-head{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+margin: 24px 0px;
+   }
+   .inspiration-para{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+opacity: 0.7;
+
+   }
+
+   .inspiration-vedio{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+width: 1140px;
+height: 614px;
+padding: 32px;
+
+   }
